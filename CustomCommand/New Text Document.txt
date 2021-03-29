@@ -1,0 +1,4 @@
+https://csharp.hotexamples.com/examples/Spring.IO/ByteArrayResource/-/php-bytearrayresource-class-examples.html
+https://csharp.hotexamples.com/ru/examples/-/RestTemplate/-/php-resttemplate-class-examples.html
+https://csharp.hotexamples.com/ru/examples/-/RestTemplate/-/php-resttemplate-class-examples.html
+https://docs.microsoft.com/en-us/visualstudio/extensibility/extending-the-output-window?view=vs-2019

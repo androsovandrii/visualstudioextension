@@ -1,0 +1,25 @@
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011">
+  <Metadata>
+    <Identity Id="CustomCommandSample.b533325b-3cbb-40bc-a4e8-9f4221c0b01c" Version="1.0" Language="en-US" Publisher="Mads Kristensen" />
+    <DisplayName>Custom Command Sample</DisplayName>
+    <Description xml:space="preserve">Shows how to hook up a command in VS</Description>
+    <MoreInfo>https://github.com/madskristensen/CustomCommandSample</MoreInfo>
+    <License>Resources\LICENSE</License>
+    <Icon>Resources\Icon128x128.png</Icon>
+    <PreviewImage>Resources\Icon128x128.png</PreviewImage>
+    <Tags>sample, command</Tags>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[16.1.28811.260,17.0)" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" Version="[4.5,)" />
+    <Dependency Id="Microsoft.VisualStudio.MPF.15.0" DisplayName="Visual Studio MPF 15.0" Version="[15.0]" />
+  </Dependencies>
+  <Prerequisites>
+    <Prerequisite Id="Microsoft.VisualStudio.ComponentGroup.VisualStudioExtension.Prerequisites" Version="[16.4.29318.151,17.0)" DisplayName="Visual Studio extension development prerequisites" />
+  </Prerequisites>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.VsPackage" Path="CustomCommandSample.pkgdef" />
+  </Assets>
+</PackageManifest>
